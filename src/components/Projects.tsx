@@ -3,13 +3,13 @@ import { ExternalLink, Github, Brain, MessageSquare, Eye } from 'lucide-react';
 const projects = [
   {
     icon: Brain,
-    title: 'LLM-Powered Q&A Chatbot with Groq',
+    title: 'AI Assistant Hub – End-to-End LLM Application',
     description:
-      'Designed and implemented a configurable LLM-based Q&A system using Streamlit and LangChain. Integrated Groq’s low-latency inference API with prompt templating, output parsing, and runtime controls for model, temperature, and token limits.',
+      'Built a production-ready AI assistant integrating Groq’s high-speed inference API to deliver chat and document-based intelligence in a single platform. Implemented client-side RAG architecture, document summarization, structured Q&A, and persistent multi-session conversations. Focused on performance, UX responsiveness, and scalable frontend architecture without relying on a backend',
     technologies: ['Python', 'Streamlit', 'LangChain', 'Groq API', 'Prompt Engineering'],
     gradient: 'from-emerald-500 to-teal-600',
     code: 'https://github.com/Harshgarg123/SearchEngine',
-    demo: 'https://huggingface.co/spaces/harshgarg99645/ai',
+    demo: 'https://allin-one-aiii.vercel.app/',
   },
   {
     icon: Brain,
